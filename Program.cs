@@ -17,7 +17,7 @@ namespace MyCardGame
             switch (input)
             {
                 case "1":
-                    Console.WriteLine("You have entered the Card Game. Strap your seat belt! ");
+                    Console.WriteLine("You    have entered the Card Game. Strap your seat belt! ");
                     Card card = new Card();
                     card.LoadCards();
                     break;
